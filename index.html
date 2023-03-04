@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="/" class="logo">Coffee Shop</a>
+      <label for="check" class="checkbtn">
+        <div class="f-line"></div>
+        <div class="s-line"></div>
+        <div class="t-line"></div>
+      </label>
+      <input type="checkbox" id="check">
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="hero">
+      <div class="left">
+        <h1>Hi, Welcome to The Beanery</h1>
+        <p>"Welcome to The Beanery, where every cup is brewed with passion and precision.
+            We believe that a great cup of coffee starts with quality beans, which is why we source only the finest coffee beans from around the world. 
+            From classic blends to seasonal specialties, we offer a variety of flavors and brewing methods to suit all tastes. 
+            Our cozy and inviting atmosphere is the perfect place to unwind and enjoy a cup of coffee with friends or simply relax with a good book.
+            We're dedicated to providing a memorable coffee experience for every customer, so thank you for choosing The Beaner!"</p>
+      </div>
+      <div class="right">
+        <img src="image/cofee.jpg" alt="Coffee">
+      </div>
+    </div>
+    </div>
+
+    <!-- Menu Section Styling -->
+    <section id="menu" class="menu">
+    <h1> Our Menu</h1><br><br>
+    <div class="grid-container">
+      <div class="grid-item"><img src="image/hot.webp" alt=""><b>Hot Drinks</b></div>
+      <div class="grid-item"><img src="image/iced.jpg" alt=""><b>Iced Coffee</b></div>
+      <div class="grid-item"><img src="image/dessert.jpg" alt=""><b>Dessert</b></div> 
+      <div class="grid-item"><img src="image/chai.jpg" alt=""><b>Chai</b></div>
+    </div>
+    </section>
+
+    <!-- About Section Styling -->
+    <section id="about" class="about">
+    <h1>About Us</h1>
+    <div class="container">
+      <div class="hero">
+          <div class="left">
+          <p>Welcome to The Beanery, a premier coffee shop with five locations across Nepal, including three in the Kathmandu Valley and two in Biratnagar. Our first location was established in 2020 in the bustling neighborhood of Naxal in Kathmandu, and since then we have been committed to providing the highest quality coffee and exceptional service to our customers.
+           We take great pride in sourcing only the finest coffee beans from around the world to create our signature blends. From classic espresso drinks to pour-over coffee and cold brew, we offer a variety of brewing methods to suit all tastes. Our menu also includes a range of delicious snacks and pastries, as well as non-coffee drinks for those who prefer something different.
+           Each of our five locations is designed to create a cozy and inviting atmosphere, perfect for catching up with friends, studying or working, or simply relaxing with a good book. Our knowledgeable and friendly staff is always on hand to help you find the perfect drink and answer any questions you may have.
+            At The Beanery, we believe that great coffee is more than just a drink - it's a way of life. That's why we're dedicated to creating a memorable coffee experience for every customer who walks through our doors. Whether you're a seasoned coffee connoisseur or a first-time visitor, we welcome you to join us for a cup of coffee and discover the unique flavors and aromas of The Beanery.</p>
+      </div>
+      <div class="right">
+          <img src="image/shop.webp" alt="Shop">
+      </div>
+  </div>
+  </div>
+    </section>
+
+  <!-- Contact Section Styling -->
+  <section id="contact" class="contact">
+  <h1>Contact Us</h1>
+  <form action="#" method="POST" class="contact-form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+  </section>
+
+  <footer>
+      <p>Copyright 2023 | All Rights Reserved | Developed By Bigyan Parajuli<br>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a></p>
+    </footer>
+</body>
+</html>
